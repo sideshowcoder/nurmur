@@ -1,0 +1,26 @@
+{
+  "name": "nurmur",
+  "version": "0.0.1",
+  "description": "binding for native murmur3 hash library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "nan": "^1.3.0",
+    "node-gyp": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  },
+  "scripts": {
+    "test": "mocha",
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [
+    "murmur3"
+  ],
+  "author": "sideshowcoder <philipp.fehre@gmail.com>",
+  "license": "MIT",
+  "gypfile": true
+}
